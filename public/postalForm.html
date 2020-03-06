@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Postal Rate Form</title>
+   <style>
+       body {
+           background-color: goldenrod;
+            text-align: center;
+       }
+   </style>
+</head>
+<body>
+    <h1>Postal Rate Calculator!</h1>
+   <form action="/postalRate" method="get">
+      <label for="mailWeight">Enter the Weight of your mail to the nearest oz</label> 
+      <input type="text" id="mailWeight" name="mailWeight"> <br><br>
+      <label for="mailType">Select your type of Mail</label>
+            <select name="mailType">
+               <option>Letters(Stamped)</option>
+               <option>Letters(Metered)</option>
+               <option>Large Envelopes(Flats)</option>
+               <option>First-Class Package Service-Retail</option>
+               <option>Postcard</option>
+               <option>Keys and Identification Devices</option>
+            </select> <br><br>
+      <input type="submit" value="Submit">
+   </form>
+</body>
+</html>
