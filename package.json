@@ -1,0 +1,22 @@
+{
+  "name": "postalratecalculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakobRhodes/PostalRateCalculator.git"
+  },
+  "author": "Jakob Rhodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakobRhodes/PostalRateCalculator/issues"
+  },
+  "homepage": "https://github.com/jakobRhodes/PostalRateCalculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
